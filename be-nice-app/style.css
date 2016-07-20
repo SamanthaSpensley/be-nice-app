@@ -1,14 +1,37 @@
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
 /* ----- font-family: 'Bungee Shade', cursive; ----- */
+@import 'https://fonts.googleapis.com/css?family=Bungee';
+/* ----- font-family: 'Bungee', cursive; ----- */
+@import 'https://fonts.googleapis.com/css?family=Shadows+Into+Light';
+/* ----- font-family: 'Shadows Into Light', cursive; ----- */
+@import 'https://fonts.googleapis.com/css?family=Baloo';
+/* ----- font-family: 'Baloo', cursive; ----- */
 
 /* ----- structure ---- */
-.wrapper {
-  width: 100%;
-  margin: auto;
-
+body {
+  background: url('assets/pineapple.jpg');
+  max-width: 100%;
+  background-size: cover;
+}
+.content {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  margin-left: 5vw;
+  margin-top: 5vw;
+  width: 50vw;
 }
 
 /* ----- type ----- */
+
 h1 {
-  font-family: 'Bungee Shade', cursive; 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 5vw;
+}
+/*.header {
+  font-family: 'Bungee', cursive;
+} */
+
+button {
+  padding: 1vw;
+  font-family: 'Baloo', cursive;
+  font-size: 3vw;
 }
