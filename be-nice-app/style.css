@@ -1,0 +1,14 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+/* ----- font-family: 'Bungee Shade', cursive; ----- */
+
+/* ----- structure ---- */
+.wrapper {
+  width: 100%;
+  margin: auto;
+
+}
+
+/* ----- type ----- */
+h1 {
+  font-family: 'Bungee Shade', cursive; 
+}
